@@ -115,6 +115,10 @@ The test suite validates cross-service communication:
 - Create order for inactive user fails with 400
 - Create order for non-existent user fails with 404
 
+**Results:** 13/13 passed in 0.56s
+
+![Docker Test Results](reports/screenshots/docker_tests_passing.jpg) 
+
 ## Project Structure
 ```
 QA_Integration_Microservices/
@@ -170,14 +174,6 @@ environment:
 - 76x faster test execution (0.56s vs 43s)
 - Production-like setup
 
-## Next Steps
-
-- Add GitHub Actions CI/CD
-- Add response time assertions
-- Add contract testing with Pact
-- Add monitoring and logging
-- Add database persistence
-
 ## Author
 
 Artur Dmytriyev  
@@ -185,4 +181,3 @@ QA Automation Engineer
 
 GitHub: https://github.com/arturdmt-alt  
 LinkedIn: https://www.linkedin.com/in/arturdmytriyev
-
