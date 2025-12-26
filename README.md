@@ -1,5 +1,7 @@
 # Microservices Integration Testing Framework
 
+[![Integration Tests Syntax Check](https://github.com/arturdmt-alt/QA_Integration_Microservices/actions/workflows/tests.yml/badge.svg)](https://github.com/arturdmt-alt/QA_Integration_Microservices/actions/workflows/tests.yml)
+
 Integration testing framework demonstrating microservices communication patterns. Two REST services (FastAPI + Flask) with cross-service validation and error handling.
 
 ## Architecture
